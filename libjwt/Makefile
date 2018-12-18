@@ -22,7 +22,7 @@ PKG_BUILD_PARALLEL:=1
 
 include $(INCLUDE_DIR)/package.mk
 
-define Package/jansson
+define Package/libjwt
   SECTION:=libs
   CATEGORY:=Libraries
   TITLE:=JWT library
