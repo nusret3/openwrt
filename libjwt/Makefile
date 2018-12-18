@@ -13,9 +13,9 @@ PKG_RELEASE:=1
 PKG_LICENSE:=MIT
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/benmcollins/libjwt/releases
+PKG_SOURCE_URL:=https://github.com/benmcollins/libjwt/releases/
 PKG_HASH:=deb53a63968696dc8b7eb9e003625598c8d1b174d5f06d13f7c9cf59fc729159
-#783132e2fc970feefc2fa54199ef65ee020bd8e0e991a78ea44b8586353a0947
+
 
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1
