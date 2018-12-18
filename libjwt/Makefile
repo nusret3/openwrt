@@ -30,7 +30,7 @@ define Package/libjwt
   MAINTAINER:=ben collins
 endef
 
-define Package/jansson/description
+define Package/libjwt/description
   JWT library for C
 endef
 
@@ -45,7 +45,7 @@ define Build/InstallDev
 	$(CP) $(PKG_INSTALL_DIR)/usr/include/* $(1)/usr/include/
 endef
 
-define Package/jansson/install
+define Package/libjwt/install
 	$(INSTALL_DIR) $(1)/usr/lib
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libjwt*so* $(1)/usr/lib/
 endef
