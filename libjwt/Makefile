@@ -12,8 +12,8 @@ PKG_VERSION:=1.10.0
 PKG_RELEASE:=1
 PKG_LICENSE:=MIT
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/benmcollins/libjwt/releases/
+PKG_SOURCE:=v$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://github.com/benmcollins/libjwt/archive/
 PKG_HASH:=deb53a63968696dc8b7eb9e003625598c8d1b174d5f06d13f7c9cf59fc729159
 
 
